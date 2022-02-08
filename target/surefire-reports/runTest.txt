@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 15.622 sec <<< FAILURE!
+Add new owner(Vets can add a new pet owner)  Time elapsed: 6.884 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepdefs.FindOwner.i_should_see_newly_added_pet_owner(FindOwner.java:50)
+	at ?.I should see newly added Pet owner(file:///C:/Users/gaurav.bs.gupta/Documents/testpetclinic/src/test/resources/features/find_owner.feature:9)
+

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="14.644">
+    <testcase classname="Browsing around" name="Login and Vets" time="4.427">
+        <system-out>
+            <![CDATA[Given I have opened the browser.............................................passed
+And I am on the home page...................................................passed
+When I open veterinarians page..............................................passed
+Then I search for text "Veterinarians"......................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Browsing around" name="Login and check owner based on last name" time="3.153">
+        <system-out>
+            <![CDATA[Given I have opened the browser.............................................passed
+And I am on the home page...................................................passed
+When I search owner "Franklin"..............................................passed
+Then I get owner "Franklin" Informations....................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Vets can add a new pet owner" name="Add new owner" time="6.871">
+        <failure message="" type="java.lang.AssertionError">
+            <![CDATA[Given I have opened the browser.............................................passed
+And I am on Find owners page................................................passed
+And I Click on Add Owner HyperLink..........................................passed
+When I enter New Owner details "first_name" "last_name" "address" "city" "telephone".passed
+And I click on Add Owner Button.............................................passed
+Then I should see newly added Pet owner.....................................failed
+
+StackTrace:
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at stepdefs.FindOwner.i_should_see_newly_added_pet_owner(FindOwner.java:50)
+	at ✽.I should see newly added Pet owner(file:///C:/Users/gaurav.bs.gupta/Documents/testpetclinic/src/test/resources/features/find_owner.feature:9)
+]]>
+        </failure>
+    </testcase>
+</testsuite>

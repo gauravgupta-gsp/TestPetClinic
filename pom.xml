@@ -1,0 +1,85 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>testPetClinic</groupId>
+  <artifactId>testPetClinic</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <name>testPetClinic</name>
+  <description>testPetClinic</description>
+
+   <dependencies>
+   	<dependency>
+		<groupId>javax.xml.bind</groupId>
+		<artifactId>jaxb-api</artifactId>
+		<version>2.3.1</version>
+		</dependency>
+		<dependency>
+		<groupId>com.sun.xml.bind</groupId>
+		<artifactId>jaxb-core</artifactId>
+		<version>2.3.0.1</version>
+		</dependency>
+		<dependency>
+		<groupId>javax.xml.bind</groupId>
+		<artifactId>jaxb-api</artifactId>
+		<version>2.3.1</version>
+		</dependency>
+		<dependency>
+		<groupId>com.sun.xml.bind</groupId>
+		<artifactId>jaxb-impl</artifactId>
+		<version>2.3.1</version>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.javassist</groupId>
+		<artifactId>javassist</artifactId>
+		<version>3.25.0-GA</version>
+	</dependency>
+   
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>4.11</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency> 
+	   <groupId>org.seleniumhq.selenium</groupId> 
+	   <artifactId>selenium-java</artifactId> 
+	   <version>3.141.59</version> 
+	</dependency>
+	<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>6.2.2</version>
+	    <scope>test</scope>
+	</dependency>
+		<dependency>
+	    <groupId>io.cucumber</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+	    <version>6.2.2</version>
+	    <scope>test</scope>
+	</dependency>
+	
+	<dependency>
+		<groupId>org.apache.maven.plugins</groupId>
+		<artifactId>maven-surefire-plugin</artifactId>
+		<version>3.0.0-M5</version>
+		<type>maven-plugin</type>
+	</dependency>
+
+  </dependencies>
+  
+  <properties>
+  		<maven.compiler.source>1.7</maven.compiler.source>
+		<maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+  
+  
+   <build>
+   	<plugins>
+   		<plugin>
+   			<groupId>org.apache.maven.plugins</groupId>
+   			<artifactId>org.apache.maven.plugins</artifactId>
+   			<version>1.6</version>
+   		</plugin>
+   	</plugins>
+   </build>
+</project>

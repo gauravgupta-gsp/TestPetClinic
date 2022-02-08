@@ -1,0 +1,331 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-08T04:49:08.031Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2992900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.BrowsingAround.setup()"
+            }
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.BrowsingAround.statementBeforeSmokeTest()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Login and Vets",
+        "description": "",
+        "id": "browsing-around;login-and-vets",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2397061700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "stepdefs.BrowsingAround.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 676664400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on the home page",
+            "match": {
+              "location": "stepdefs.BrowsingAround.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1236470200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open veterinarians page",
+            "match": {
+              "location": "stepdefs.BrowsingAround.I_open_veterinarians_page()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 37857200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I search for text \"Veterinarians\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Veterinarians\"",
+                  "offset": 18
+                }
+              ],
+              "location": "stepdefs.BrowsingAround.I_search_for_text(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-08T04:49:12.480Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1990100,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.BrowsingAround.setup()"
+            }
+          },
+          {
+            "result": {
+              "duration": 611800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.BrowsingAround.statementBeforeSmokeTest()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Login and check owner based on last name",
+        "description": "",
+        "id": "browsing-around;login-and-check-owner-based-on-last-name",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1817788000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "stepdefs.BrowsingAround.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 624266700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I am on the home page",
+            "match": {
+              "location": "stepdefs.BrowsingAround.i_am_on_the_home_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 638871600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I search owner \"Franklin\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Franklin\"",
+                  "offset": 15
+                }
+              ],
+              "location": "stepdefs.BrowsingAround.I_search_owner(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 60512500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I get owner \"Franklin\" Informations",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Franklin\"",
+                  "offset": 12
+                }
+              ],
+              "location": "stepdefs.BrowsingAround.I_get_owner_Informations(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Browsing around",
+    "description": "",
+    "id": "browsing-around",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/browsing_around.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-08T04:49:15.644Z",
+        "before": [
+          {
+            "result": {
+              "duration": 241300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.BrowsingAround.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Add new owner",
+        "description": "",
+        "id": "vets-can-add-a-new-pet-owner;add-new-owner",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2397000300,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I have opened the browser",
+            "match": {
+              "location": "stepdefs.BrowsingAround.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2608804200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I am on Find owners page",
+            "match": {
+              "location": "stepdefs.FindOwner.i_am_on_find_owners_page()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 275996800,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I Click on Add Owner HyperLink",
+            "match": {
+              "location": "stepdefs.FindOwner.i_click_on_add_owner_hyper_link()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 842908600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter New Owner details \"first_name\" \"last_name\" \"address\" \"city\" \"telephone\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"first_name\"",
+                  "offset": 26
+                },
+                {
+                  "val": "\"last_name\"",
+                  "offset": 39
+                },
+                {
+                  "val": "\"address\"",
+                  "offset": 51
+                },
+                {
+                  "val": "\"city\"",
+                  "offset": 61
+                },
+                {
+                  "val": "\"telephone\"",
+                  "offset": 68
+                }
+              ],
+              "location": "stepdefs.FindOwner.i_enter_new_owner_details(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 671850300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on Add Owner Button",
+            "match": {
+              "location": "stepdefs.FindOwner.i_click_on_add_owner_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepdefs.FindOwner.i_should_see_newly_added_pet_owner(FindOwner.java:50)\r\n\tat ✽.I should see newly added Pet owner(file:///C:/Users/gaurav.bs.gupta/Documents/testpetclinic/src/test/resources/features/find_owner.feature:9)\r\n",
+              "duration": 57033700,
+              "status": "failed"
+            },
+            "line": 9,
+            "name": "I should see newly added Pet owner",
+            "match": {
+              "location": "stepdefs.FindOwner.i_should_see_newly_added_pet_owner()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@AddOwnerTest"
+          }
+        ]
+      }
+    ],
+    "name": "Vets can add a new pet owner",
+    "description": "",
+    "id": "vets-can-add-a-new-pet-owner",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/find_owner.feature",
+    "tags": []
+  }
+]
