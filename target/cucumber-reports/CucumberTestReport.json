@@ -3,23 +3,24 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-08T04:49:08.031Z",
+        "start_timestamp": "2022-02-11T10:42:59.747Z",
         "before": [
           {
             "result": {
-              "duration": 2992900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefs.BrowsingAround.setup()"
-            }
-          },
-          {
-            "result": {
+              "duration": 2897208600,
               "status": "passed"
             },
             "match": {
               "location": "stepdefs.BrowsingAround.statementBeforeSmokeTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1064000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.BrowsingAround.setup()"
             }
           }
         ],
@@ -32,7 +33,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2397061700,
+              "duration": 992800,
               "status": "passed"
             },
             "line": 5,
@@ -44,7 +45,7 @@
           },
           {
             "result": {
-              "duration": 676664400,
+              "duration": 683542500,
               "status": "passed"
             },
             "line": 6,
@@ -56,7 +57,7 @@
           },
           {
             "result": {
-              "duration": 1236470200,
+              "duration": 1648365100,
               "status": "passed"
             },
             "line": 7,
@@ -68,7 +69,7 @@
           },
           {
             "result": {
-              "duration": 37857200,
+              "duration": 57125100,
               "status": "passed"
             },
             "line": 8,
@@ -92,24 +93,23 @@
         ]
       },
       {
-        "start_timestamp": "2022-02-08T04:49:12.480Z",
+        "start_timestamp": "2022-02-11T10:43:05.201Z",
         "before": [
           {
             "result": {
-              "duration": 1990100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "stepdefs.BrowsingAround.setup()"
-            }
-          },
-          {
-            "result": {
-              "duration": 611800,
               "status": "passed"
             },
             "match": {
               "location": "stepdefs.BrowsingAround.statementBeforeSmokeTest()"
+            }
+          },
+          {
+            "result": {
+              "duration": 534600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefs.BrowsingAround.setup()"
             }
           }
         ],
@@ -122,7 +122,6 @@
         "steps": [
           {
             "result": {
-              "duration": 1817788000,
               "status": "passed"
             },
             "line": 12,
@@ -134,7 +133,7 @@
           },
           {
             "result": {
-              "duration": 624266700,
+              "duration": 110900200,
               "status": "passed"
             },
             "line": 13,
@@ -146,7 +145,7 @@
           },
           {
             "result": {
-              "duration": 638871600,
+              "duration": 431502700,
               "status": "passed"
             },
             "line": 14,
@@ -164,7 +163,7 @@
           },
           {
             "result": {
-              "duration": 60512500,
+              "duration": 49524200,
               "status": "passed"
             },
             "line": 15,
@@ -199,11 +198,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2022-02-08T04:49:15.644Z",
+        "start_timestamp": "2022-02-11T10:43:05.817Z",
         "before": [
           {
             "result": {
-              "duration": 241300,
+              "duration": 996200,
               "status": "passed"
             },
             "match": {
@@ -220,7 +219,7 @@
         "steps": [
           {
             "result": {
-              "duration": 2397000300,
+              "duration": 386600,
               "status": "passed"
             },
             "line": 4,
@@ -232,7 +231,7 @@
           },
           {
             "result": {
-              "duration": 2608804200,
+              "duration": 75898500,
               "status": "passed"
             },
             "line": 5,
@@ -244,7 +243,7 @@
           },
           {
             "result": {
-              "duration": 275996800,
+              "duration": 202627500,
               "status": "passed"
             },
             "line": 6,
@@ -256,7 +255,7 @@
           },
           {
             "result": {
-              "duration": 842908600,
+              "duration": 457054700,
               "status": "passed"
             },
             "line": 7,
@@ -290,7 +289,7 @@
           },
           {
             "result": {
-              "duration": 671850300,
+              "duration": 156581200,
               "status": "passed"
             },
             "line": 8,
@@ -303,7 +302,7 @@
           {
             "result": {
               "error_message": "java.lang.AssertionError\r\n\tat org.junit.Assert.fail(Assert.java:86)\r\n\tat org.junit.Assert.assertTrue(Assert.java:41)\r\n\tat org.junit.Assert.assertTrue(Assert.java:52)\r\n\tat stepdefs.FindOwner.i_should_see_newly_added_pet_owner(FindOwner.java:50)\r\n\tat ✽.I should see newly added Pet owner(file:///C:/Users/gaurav.bs.gupta/Documents/testpetclinic/src/test/resources/features/find_owner.feature:9)\r\n",
-              "duration": 57033700,
+              "duration": 47728400,
               "status": "failed"
             },
             "line": 9,

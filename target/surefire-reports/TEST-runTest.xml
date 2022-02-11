@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="3" failures="1" name="runTest" time="14.613" errors="0" skipped="0">
+<testsuite tests="3" failures="1" name="runTest" time="7.185" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="11.0.12+8-LTS-237"/>
@@ -26,7 +26,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\Users\gaurav.bs.gupta\spring_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf11508444371765517790.tmp"/>
+    <property name="classworlds.conf" value="C:\Users\gaurav.bs.gupta\spring_workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf4368777972792705393.tmp"/>
     <property name="jansi.force" value="true"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.12\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files (x86)/sts-4.12.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin/server;C:/Program Files (x86)/sts-4.12.0.RELEASE//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_16.0.2.v20210721-1149/jre/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files (x86)\Symantec\VIP Access Client\;C:\Program Files\nodejs\;C:\Users\gaurav.bs.gupta\AppData\Local\Microsoft\WindowsApps;C:\Users\gaurav.bs.gupta\AppData\Local\Programs\Git\cmd;C:\Program Files\Java\jdk-11.0.12\;C:\Program Files (x86)\apache-maven-3.8.2\bin;C:\Users\gaurav.bs.gupta\AppData\Roaming\npm;C:\Users\gaurav.bs.gupta\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files (x86)\sts-4.12.0.RELEASE;;."/>
@@ -64,9 +64,9 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="Browsing around" name="Login and Vets" time="4.561"/>
-  <testcase classname="Browsing around" name="Login and check owner based on last name" time="3.168"/>
-  <testcase classname="Vets can add a new pet owner" name="Add new owner" time="6.884">
+  <testcase classname="Browsing around" name="Login and Vets" time="5.594"/>
+  <testcase classname="Browsing around" name="Login and check owner based on last name" time="0.613"/>
+  <testcase classname="Vets can add a new pet owner" name="Add new owner" time="0.978">
     <failure type="java.lang.AssertionError">java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:86)
 	at org.junit.Assert.assertTrue(Assert.java:41)
@@ -92,18 +92,5 @@ __________________Setup_________________
 	at âœ½.I should see newly added Pet owner(file:///C:/Users/gaurav.bs.gupta/Documents/testpetclinic/src/test/resources/features/find_owner.feature:9)
 &amp;#27;[0m
 </system-out>
-    <system-err>Starting ChromeDriver 98.0.4758.48 (d869ab3eda60629b9fabbd4e30c0f833466c83fd-refs/branch-heads/4758@{#415}) on port 21860
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 08, 2022 10:19:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-Starting ChromeDriver 98.0.4758.48 (d869ab3eda60629b9fabbd4e30c0f833466c83fd-refs/branch-heads/4758@{#415}) on port 24521
-Only local connections are allowed.
-Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
-ChromeDriver was started successfully.
-Feb 08, 2022 10:19:19 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: W3C
-</system-err>
   </testcase>
 </testsuite>

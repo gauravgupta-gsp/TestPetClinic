@@ -26,7 +26,7 @@ public class BrowsingAround {
 
 	String petClinicURL="http://localhost:8080/petclinic";
 
-	static WebDriver driver = null; // SingletonWebdriver.getDriver(); 
+	static WebDriver driver =  SingletonWebdriver.getDriver(); 
 		
 	@Before
 	public void setup() {
@@ -35,9 +35,9 @@ public class BrowsingAround {
 
 	@Given("I have opened the browser") 
 	public void openBrowser() { 
-		System.setProperty("webdriver.chrome.driver", "C://chrome_webdriver//chromedriver.exe");					
-		driver= new ChromeDriver();		   
-		driver.manage().window().maximize();	
+//		System.setProperty("webdriver.chrome.driver", "C://chrome_webdriver//chromedriver.exe");					
+//		driver= new ChromeDriver();		   
+//		driver.manage().window().maximize();	
 	} 		
 
 	@And("I am on the home page")

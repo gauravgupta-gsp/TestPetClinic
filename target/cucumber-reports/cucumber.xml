@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="14.644">
-    <testcase classname="Browsing around" name="Login and Vets" time="4.427">
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="7.232">
+    <testcase classname="Browsing around" name="Login and Vets" time="5.423">
         <system-out>
             <![CDATA[Given I have opened the browser.............................................passed
 And I am on the home page...................................................passed
@@ -9,7 +9,7 @@ Then I search for text "Veterinarians"......................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Browsing around" name="Login and check owner based on last name" time="3.153">
+    <testcase classname="Browsing around" name="Login and check owner based on last name" time="0.603">
         <system-out>
             <![CDATA[Given I have opened the browser.............................................passed
 And I am on the home page...................................................passed
@@ -18,7 +18,7 @@ Then I get owner "Franklin" Informations....................................pass
 ]]>
         </system-out>
     </testcase>
-    <testcase classname="Vets can add a new pet owner" name="Add new owner" time="6.871">
+    <testcase classname="Vets can add a new pet owner" name="Add new owner" time="0.96">
         <failure message="" type="java.lang.AssertionError">
             <![CDATA[Given I have opened the browser.............................................passed
 And I am on Find owners page................................................passed
